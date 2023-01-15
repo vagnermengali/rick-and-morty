@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import background_button from "@/assets/image/background/background-button-1.svg";
+import background_button from "../../../../../public/background-button-1.svg";
 
 export const StyledButtonNextPrev = styled.div`
   width: 85%;

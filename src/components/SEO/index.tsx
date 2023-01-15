@@ -1,5 +1,5 @@
 import Head from "next/head";
-import logo from "@/assets/image/logo/logo.svg"
+import logo from "../../../public/logo.svg"
 
 interface SEOProps {
   title: string;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import background_button from "@/assets/image/background/background-button.svg";
-import background_button1 from "@/assets/image/background/background-button-1.svg";
+import background_button from "../../../public/background-button.svg";
+import background_button1 from "../../../public/background-button-1.svg";
 
 export const HeaderContainer = styled.header`
   height: 5vw;
