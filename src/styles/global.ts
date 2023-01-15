@@ -3,9 +3,9 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
  @font-face {
   font-family: 'Roboto';
-  src: local('Roboto'), url(/font/Roboto.ttf) format('truetype');
+  src: local('Roboto'), url(/Roboto.ttf) format('truetype');
   font-family: 'Rick';
-  src: local('Rick'), url(/font/Rick.ttf) format('truetype');
+  src: local('Rick'), url(/Rick.ttf) format('truetype');
 }
 :root {
     --first-color:#B1DF29;

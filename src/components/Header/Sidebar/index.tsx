@@ -1,5 +1,5 @@
 import { Container } from "./style";
-import logo from "@/assets/image/logo/logo-letter.svg";
+import logo from "../../../../public/logo-letter.svg";
 import { useContext } from "react";
 import { Context } from "../../../context/pageContext";
 

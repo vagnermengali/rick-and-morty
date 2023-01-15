@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import background_home from "@/assets/image/background/background.svg";
-import background_button from "@/assets/image/background/background-button.svg";
+import background_home from "../../../../public/background.svg";
+import background_button from "../../../../public/background-button.svg";
 
   
 export const StyledInitialSection = styled.div`
