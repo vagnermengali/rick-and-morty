@@ -26,9 +26,9 @@ const Cards = () => {
     <StyledCards>
       <div className="container-card">
         <ul className="list">
-          {characterList.map((elem) => (
+          {characterList.map((elem, index) => (
             <div className="border">
-              <div key={elem.id} className="card">
+              <div key={elem.id} id={index} className="card">
                 <img src={elem.image} alt={elem.name} className="img" />
                 <div className="content-card">
                   <div>
@@ -90,7 +90,6 @@ const Cards = () => {
                 </div>
               </div>
             </div>
-
           ))}
         </ul>
       </div>
