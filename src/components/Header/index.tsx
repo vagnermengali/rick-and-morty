@@ -3,6 +3,7 @@ import logo from "../../../public/logo-letter.svg";
 import { useContext } from "react";
 import SideBar from "./Sidebar";
 import { Context } from "../../context/pageContext";
+import Image from "next/image";
 
 const Header = () => {
     const { showSideBar, isSideBarVisible } = useContext(Context);
@@ -21,7 +22,7 @@ const Header = () => {
               </label>
             </div>
             <a>
-              <img src={logo} alt="logo-letter"/>
+              <Image src={logo} width="100" height="100" alt="logo-letter"></Image>
             </a>{" "}
             <nav>
               <a className="link">

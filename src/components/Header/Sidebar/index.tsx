@@ -2,6 +2,7 @@ import { Container } from "./style";
 import logo from "../../../../public/logo-letter.svg";
 import { useContext } from "react";
 import { Context } from "../../../context/pageContext";
+import Image from "next/image";
 
 const SideBar = () => {
   const { isSideBarVisible } = useContext(Context);
@@ -17,7 +18,7 @@ const SideBar = () => {
           <button className="menu-item">Faq</button>
         </div>
         <div>
-          <img src={logo} className="menu-item img" />
+        <Image src={logo} width="100" height="100" alt="logo-letter" className="menu-item img"></Image>
         </div>
       </div>
     </Container>
