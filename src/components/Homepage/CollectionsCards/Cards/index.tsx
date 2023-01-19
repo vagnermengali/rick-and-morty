@@ -27,8 +27,8 @@ const Cards = () => {
       <div className="container-card">
         <ul className="list">
           {characterList.map((elem, index) => (
-            <div className="border">
-              <div key={elem.id} className="card">
+            <div key={elem.id} className="border">
+              <div className="card">
                 <img src={elem.image} alt={elem.name} className="img" />
                 <div className="content-card">
                   <div>
